@@ -7,22 +7,6 @@ import Login from "../Pages/Login";
 
 export default function Router() {
 
-    // const BrowserRoutes = () => {
-    //     return(
-    //         <BrowserRouter>
-    //             <Routes>
-    //                 <Route path="/" element={<Home/>} />
-
-    //                 <Route path="/" element={<SigninLayout />} />
-    //                     <Route path="/signup" element={<Signup/>} />
-                    
-    //                 <Route path="*" element={<h1>Not Found</h1>} />
-    //             </Routes>
-    //         </BrowserRouter>
-
-    //     )
-    // }
-
     const BrowserRoutes = createBrowserRouter([
         {
             path: "/",
