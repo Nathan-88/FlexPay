@@ -1,14 +1,11 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
+import Router from './routes/roots'
 
 function App() {
   return(
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="*" element={<h1>Not Found</h1>} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <Router/>
+    </>
+
   )
 }
 
