@@ -2,7 +2,7 @@ import Logo from '../assets/images/Logo-removebg.png';
 import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
-        <footer className="flex justify-between items-center h-16 bg-white shadow">
+        <footer className="absolute right-0 w-full bottom-0 flex justify-between items-center h-16 bg-white shadow">
         <Link to="/">
             <img src={Logo} alt="logo" className="h-10 pl-4" />
         </Link>
