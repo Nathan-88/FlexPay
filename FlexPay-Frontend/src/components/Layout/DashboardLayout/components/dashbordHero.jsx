@@ -1,4 +1,6 @@
 import AvailableBalance from "./avaliableBalance";
+import Banner from "./banner";
+import PendingInvoice from "./pendingInvoice";
 
 function DashboardHero() {
   return (
@@ -20,8 +22,18 @@ function DashboardHero() {
           </button>
         </div>
       </div>
-      <div className="mt-[40px]">
-        <AvailableBalance />
+
+      <div className="flex gap-20 mt-[40px]">
+        <div >
+          <AvailableBalance />
+        </div>
+
+        <div>
+            <PendingInvoice />
+        </div>
+      </div>
+      <div>
+        <Banner />
       </div>
     </div>
   );

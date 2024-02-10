@@ -13,14 +13,15 @@ function DashboardSidebar() {
         <img className="px-10" src={logo} alt="Dashboard-logo" />
       </Link>
 
-      <div className="flex items-center gap-3 bg-slate-400 opacity-[0.3] w-fit p-1  rounded-md text-white my-7">
-        <CiSearch />
+      <div className="flex items-center gap-3 bg-slate-400  w-fit p-1  rounded-md text-white my-7">
+        <span className="font-bold"><CiSearch /></span>
         <input
           type="text"
           name="search"
           id="dashboard_sidebar__search"
           placeholder="Search"
-          className="bg-slate-400 text-white"
+          className="placeholder:border-gray-500"
+          style={{background :"transparent", border:"none"}}
         />
       </div>
 

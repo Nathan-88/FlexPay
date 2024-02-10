@@ -3,7 +3,7 @@ import { FaEyeSlash } from "react-icons/fa";
 
 function AvailableBalance() {
   return (
-    <div className="flex item-center gap-24 bg-black w-fit p-3 rounded-lg text-white">
+    <div className="flex item-center gap-24 bg-black w-fit p-3 rounded-lg text-white pr-10">
 
       <div>
         <span className="opacity-50">Available Balance</span>
@@ -21,7 +21,7 @@ function AvailableBalance() {
       <div className="text-[25px] opacity-50 flex items-center">
         <FaEyeSlash />
       </div>
-      
+
     </div>
   );
 }
