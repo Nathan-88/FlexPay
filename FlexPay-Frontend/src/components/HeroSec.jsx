@@ -6,7 +6,7 @@ import contract from '../assets/images/contract_icon.png';
 
 const HeroSec = () => {
     return (
-        <section className="p-4 bg-[#F2F2F2]">
+        <section className="p-4">
             <div className="flex">
                 <div className="flex flex-col mx-6 pt-8 w-1/2">
                     <h1 className="text-5xl font-bold leading-[3.3rem]">All In-One <br/> Clients Management <br/> Solution For Solpreneurs</h1>
@@ -24,7 +24,7 @@ const HeroSec = () => {
                 <p className="font-bold"> With Flexpay you can:</p>
                 <div className="flex mt-4 w-full gap-10">
                     <div className="flex w-1/3 bg-blue-500 shadow-lg p-4 gap-3 rounded-lg">
-                        <img src={plus} alt="add clients" className=""/>
+                        <img src={plus} alt="add clients" className="w-16"/>
                         <p className="text-white">Add new Clients & manage existing one on your client management portal</p>
                     </div>
                     <div className="flex w-1/3 bg-black shadow-lg p-4 rounded-lg gap-3">
@@ -33,7 +33,7 @@ const HeroSec = () => {
      
                     </div>
                     <div className="flex bg-gray-300 shadow-lg p-4 rounded-lg w-1/3 gap-3">
-                        <img src={mark} alt="receive payments" className=""/>
+                        <img src={mark} alt="receive payments" className="w-[4.5rem]"/>
                         <p>Receive payments from local clients and transfer to your bank account</p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const HeroSec = () => {
                     <p className="">Take your business to another level</p>
                     <p className="text-blue-800 font-bold">FAQ</p>
                 </div>
-                <button className="mb-3 border-2 border-blue-700 hover:bg-blue-500 hover:text-white text-blue-700 font-medium rounded-3xl px-4 py-2"><Link to="/contact" className=' '>Create Account</Link></button>
+                <button className="mb-16 border-2 border-blue-700 hover:bg-blue-500 hover:text-white text-blue-700 font-medium rounded-3xl px-4 py-2"><Link to="/contact" className=' '>Create Account</Link></button>
                 
             </div>
         </section>
