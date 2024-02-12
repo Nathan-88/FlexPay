@@ -6,7 +6,7 @@ import contract from '../assets/images/contract_icon.png';
 
 const HeroSec = () => {
     return (
-        <section className="p-4">
+        <section className="p-4 flex-1">
             <div className="flex">
                 <div className="flex flex-col mx-6 pt-8 w-1/2">
                     <h1 className="text-5xl font-bold leading-[3.3rem]">All In-One <br/> Clients Management <br/> Solution For Solpreneurs</h1>
@@ -41,7 +41,7 @@ const HeroSec = () => {
                     <p className="">Take your business to another level</p>
                     <p className="text-blue-800 font-bold">FAQ</p>
                 </div>
-                <button className="mb-16 border-2 border-blue-700 hover:bg-blue-500 hover:text-white text-blue-700 font-medium rounded-3xl px-4 py-2"><Link to="/contact" className=' '>Create Account</Link></button>
+                <button className="mb-3 border-2 border-blue-700 hover:bg-blue-500 hover:text-white text-blue-700 font-medium rounded-3xl px-4 py-2"><Link to="/contact" className=' '>Create Account</Link></button>
                 
             </div>
         </section>

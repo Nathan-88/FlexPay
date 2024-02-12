@@ -1,4 +1,4 @@
-import Logo from '../assets/images/whitelogo.png';
+import Logo from '../../assets/images/whitelogo.png';
 import { Link } from 'react-router-dom';
 const Navbarsigin = (prop) => {
     return (
