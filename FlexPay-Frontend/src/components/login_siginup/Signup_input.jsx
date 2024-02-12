@@ -74,7 +74,7 @@ function Login_in(){
                 </div>
                 <div className="space-y-1 w-[90%] md:w-[40%]">
                     <label className='pl-1' htmlFor="password">password</label>
-                    <input className={errors.comfirmPassword && touched.comfirmPassword? errorstyle:inputstyle}
+                    <input className={errors.password && touched.password? errorstyle:inputstyle}
                     value={values.password}
                     onChange={handleChange}
                     onBlur={handleBlur} //validates the form when you click off the input
